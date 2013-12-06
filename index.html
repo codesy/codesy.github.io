@@ -7,6 +7,8 @@
     <meta name="description" content="codesy is a pay-what-you-want market for the open source community to encourage coders to fix important bugs.">
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/hopifhdlfjonfmboekeejdilgkkockjb">
+
 
     <title>codesy.io</title>
 
@@ -41,7 +43,7 @@
         <h1><img src="img/codesy.png"/></h1>
         <p class="lead">codesy is a pay-what-you-want market<br/>for the open source community<br/>to encourage coders to fix important bugs.</p>
         <p>
-          <img src="img/chrome.png" width="32" height="32"/> <a class="btn btn-lg btn-success" href="#" role="button">Add to Chrome</a>
+          <img src="img/chrome.png" width="32" height="32"/> <a id="chrome-install-button" class="btn btn-lg btn-success" onclick="chrome.webstore.install()" role="button">Add to Chrome</a>
           <img src="img/firefox.png" width="32" height="32"/> <a class="btn btn-lg btn-success" href="codesy.xpi" role="button">Add to Firefox</a>
         </p>
       </div>
